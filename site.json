@@ -1,0 +1,13 @@
+{
+ "title": "Class Game Notes",
+ "short": "Class Game Notes",
+ "description": "Running short games in a classroom or club: devices, groups, scoring and getting started without losing ten minutes. Notes by Ahmed Moaz.",
+ "canonical_base": "https://boardit.bitbucket.io/",
+ "base": "/",
+ "blurb": "Games in class work when setup is quick, every student is doing something and nobody ends the lesson as the loser. These notes cover the practical side: devices, groups, scoring and timing.",
+ "footer": "Written by Ahmed Moaz.",
+ "about": [
+  "I am Ahmed Moaz. I build Boardit, a small site of free browser games for people aged 13 and over. Some teachers use games like these in class.",
+  "This blog is about the practical side of running games with a class or club. I have not taught a class myself; where a note relies on published research, it says so."
+ ]
+}

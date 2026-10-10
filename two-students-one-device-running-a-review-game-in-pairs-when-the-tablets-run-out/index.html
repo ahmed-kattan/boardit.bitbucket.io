@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Two students, one device: running a review game in pairs when the tablets run out</title>
+<meta name="description" content="Thirty students, fifteen tablets. Anyone who has planned a quiz lesson knows the moment: the trolley comes back half full, and the plan assumed one each. A">
+<link rel="canonical" href="https://boardit.bitbucket.io/two-students-one-device-running-a-review-game-in-pairs-when-the-tablets-run-out/">
+<style>body{max-width:44rem;margin:2rem auto;padding:0 1rem;font:17px/1.65 -apple-system,Segoe UI,Roboto,sans-serif;color:#222;background:#fff}a{color:#0b5cad}h1{font-size:1.75rem;line-height:1.25}h2{font-size:1.25rem;margin-top:2rem}table{border-collapse:collapse;margin:1rem 0}td,th{border:1px solid #ccc;padding:.3rem .5rem;text-align:left}header,footer{font-size:.9rem;color:#666}code{background:#f3f3f3;padding:0 .2rem}</style>
+</head>
+<body>
+<header><a href="/">Class Game Notes</a> &middot; by Ahmed Moaz &middot; <a href="/about/">About</a></header>
+<main>
+<article>
+<h1>Two students, one device: running a review game in pairs when the tablets run out</h1>
+<p><small>Ahmed Moaz &middot; 10 October 2026</small></p>
+<p>Thirty students, fifteen tablets. Anyone who has planned a quiz lesson knows the moment: the trolley comes back half full, and the plan assumed one each. A review game in pairs is the obvious fix. It also goes wrong in a predictable way. One student taps, the other watches, and half the class revises nothing.</p>
+<p>The answer is not more hardware. It is a rule for what each person does. I build a site of multiplayer browser games that includes a pass the phone game, so I have had to think about what changes when people share one screen. Most of it carries over to a classroom.</p>
+<h2>Why one device per pair goes quiet</h2>
+<p>To the quiz software, a pair is one player. It records one answer per question and one score. It cannot tell whether both students thought about the question, or whether one guessed while the other looked out of the window.</p>
+<p>So the job of keeping both students working falls to the rules you set before the first question. Two rules do most of it: a split of jobs, and a shared-answer rule.</p>
+<h2>Give each pair two jobs: driver and navigator</h2>
+<p>Programmers have long worked two to a keyboard. In their 2020 article on pair programming, Birgitta Böckeler and Nina Siessegger describe the driver as "the person at the wheel, i.e. the keyboard". The navigator reviews, gives direction and keeps an eye on the bigger picture. Their advice is to switch roles regularly.</p>
+<p>A quiz in pairs maps onto that neatly. The driver holds the device and taps. The navigator reads the question aloud and must say an answer first. Swap the device after every question. In a 20-question review, each student then drives ten times and navigates ten times, so nobody coasts for long.</p>
+<h2>The shared-answer rule: think alone, then agree</h2>
+<p>That split still lets a confident student decide everything. The second rule stops that. Before anyone speaks, each student settles on an answer in silence. Then they compare.</p>
+<p>This is the shape of think-pair-share, a collaborative teaching strategy credited to Frank Lyman of the University of Maryland: think on your own, pair up, then share. The silent step matters most. It is the only moment the quieter student holds an answer that is fully theirs.</p>
+<p>When the two disagree, they must agree before the tap. That short argument is the revision.</p>
+<h2>Make the clock fit a review game in pairs</h2>
+<p>A clock set for one person is too short for two. Lengthen it if your tool allows. If it does not, split the time: a few silent seconds, a quick exchange, then the tap.</p>
+<p>The pass-the-phone game I build is designed around exactly this problem. In its one-phone mode there is no chat and no vote to remove a player, so everything social happens out loud, around the device, much like a game night. When it is time to vote, the phone goes round again, and each person gets their own 45 seconds. One 45-second clock shared by twelve people would leave each of them 3.75 seconds. Time belongs to people, not devices.</p>
+<h2>How to pair students when you are sharing devices in the classroom</h2>
+<p>Decide the pairs before the lesson, not at the trolley. Sit each pair side by side, so both can read the question without leaning. Mix confidence levels if you want explaining, and match them if you want even arguments; each choice costs something. Change the pairs every lesson, so nobody settles into always being the driver.</p>
+<p>These are review game ideas, not a scheme of work. The programmers' habit and this piece of collaborative learning practice point the same way, but neither promises that a pair learns twice as much.</p>
+<h2>Before the first question</h2>
+<p>I have not tested these rules in a classroom, and the pair work evidence cited here is general rather than about quizzes. A pair still shares one score, so the results will not tell you who knew what. Boardit is not meant for children under 13, so any browser version of this is for older students, with the teacher opening and hosting the room. For younger classes, classroom review games on paper or a whiteboard follow the same two rules.</p>
+<p><em>Ahmed Moaz builds Boardit, a free browser game site. Drafted and reviewed with AI help; facts checked against the game's code.</em></p>
+</article>
+</main>
+<footer><p>Written by Ahmed Moaz.</p></footer>
+</body>
+</html>
